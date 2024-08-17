@@ -6,7 +6,7 @@ namespace EmployeePortal.Web.Data
     public class EFDbContext : DbContext
     {
         public EFDbContext()
-        {  
+        {
         }
 
         public EFDbContext(DbContextOptions<EFDbContext> options)

@@ -25,6 +25,7 @@ namespace EmployeePortal.Web
             app.UseStaticFiles();
             app.UseRouting();
             app.UseAuthorization();
+            app.UseAuthorization();
 
             CreateDbIfNotExists(app);
 
